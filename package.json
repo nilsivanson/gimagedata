@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "gimagedata@0.0.7",
+      "/Users/nils/sca-sprida"
+    ]
+  ],
+  "_from": "gimagedata@0.0.7",
+  "_id": "gimagedata@0.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Du+lNr7MuI50JdH+rVr/IYD1v539icvAHuwFaqvPJGYMMX2Vx94aUNQ2/c5FFqud4neyavp/xHRBqk1LeDfwoQ==",
+  "_location": "/gimagedata",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "gimagedata@0.0.7",
+    "name": "gimagedata",
+    "escapedName": "gimagedata",
+    "rawSpec": "0.0.7",
+    "saveSpec": null,
+    "fetchSpec": "0.0.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gimagedata/-/gimagedata-0.0.7.tgz",
+  "_spec": "0.0.7",
+  "_where": "/Users/nils/sca-sprida",
+  "author": {
+    "name": "Ulrik Strid, Nils Ivanson"
+  },
+  "bugs": {
+    "url": "https://github.com/MaverickBySigma/gimagedata/issues"
+  },
+  "description": "Greyscale ImageData (GImageData) and utilities",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "benchmark": "^2.1.4",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "flow-bin": "^0.53.1",
+    "jest-cli": "^20.0.4",
+    "jsdoc": "^3.5.4",
+    "jsdoc-babel": "^0.3.0",
+    "microtime": "^2.1.6",
+    "standard": "^10.0.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/MaverickBySigma/gimagedata#readme",
+  "keywords": [
+    "greyscale",
+    "bitmap",
+    "imagedata"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "gimagedata",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaverickBySigma/gimagedata.git"
+  },
+  "scripts": {
+    "babel": "babel src/ -d lib/",
+    "babel:benchmark": "NODE_ENV=test babel src/ -d benchmark/",
+    "babel:watch": "babel src/ -d lib/ --watch",
+    "build": "npm run babel",
+    "flow": "flow",
+    "jsdoc": "jsdoc -c jsdoc.json",
+    "prepublish": "npm run build",
+    "standard": "standard \"src/**/*.js\"",
+    "test": "NODE_ENV=test jest"
+  },
+  "standard": {
+    "plugins": [
+      "flowtype",
+      "jest"
+    ],
+    "parser": "babel-eslint"
+  },
+  "version": "0.0.7"
+}
