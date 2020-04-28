@@ -1,37 +1,9 @@
 {
-  "_args": [
-    [
-      "gimagedata@0.0.7",
-      "/Users/nils/sca-sprida"
-    ]
-  ],
-  "_from": "gimagedata@0.0.7",
-  "_id": "gimagedata@0.0.7",
-  "_inBundle": false,
-  "_integrity": "sha512-Du+lNr7MuI50JdH+rVr/IYD1v539icvAHuwFaqvPJGYMMX2Vx94aUNQ2/c5FFqud4neyavp/xHRBqk1LeDfwoQ==",
-  "_location": "/gimagedata",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "gimagedata@0.0.7",
-    "name": "gimagedata",
-    "escapedName": "gimagedata",
-    "rawSpec": "0.0.7",
-    "saveSpec": null,
-    "fetchSpec": "0.0.7"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/gimagedata/-/gimagedata-0.0.7.tgz",
-  "_spec": "0.0.7",
-  "_where": "/Users/nils/sca-sprida",
   "author": {
     "name": "Ulrik Strid, Nils Ivanson"
   },
   "bugs": {
-    "url": "https://github.com/MaverickBySigma/gimagedata/issues"
+    "url": "https://github.com/nivanson/gimagedata/issues"
   },
   "description": "Greyscale ImageData (GImageData) and utilities",
   "devDependencies": {
@@ -55,7 +27,7 @@
   "directories": {
     "lib": "lib"
   },
-  "homepage": "https://github.com/MaverickBySigma/gimagedata#readme",
+  "homepage": "https://github.com/nivanson/gimagedata#readme",
   "keywords": [
     "greyscale",
     "bitmap",
@@ -66,7 +38,7 @@
   "name": "gimagedata",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaverickBySigma/gimagedata.git"
+    "url": "git+https://github.com/nivanson/gimagedata.git"
   },
   "scripts": {
     "babel": "babel src/ -d lib/",
